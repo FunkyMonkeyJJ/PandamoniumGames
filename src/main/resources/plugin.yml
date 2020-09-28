@@ -1,0 +1,21 @@
+name: PandamoniumGames
+version: '1.0'
+main: Game.Game
+api-version: '1.16'
+commands:
+  rules:
+    usage: "Tells the user the rules and regulations for the
+    Pandamonium Games."
+    permission-message: "You don't have permission to use that here."
+  instructions:
+    usage: "Tells the user how the Pandamonium Games are played."
+    permission-message: "You don't have permission to use that here."
+  help:
+    usage: "Gives the user some assistance in how to win in PantyRaid."
+    permission-message: "You don't have permission to use that here."
+  nickname:
+    usage: "Gives you a fancy (or maybe not so fancy) nickname."
+    permission-message: "You don't have permission to use that here."
+  endgame:
+    usage: "Ends the current game, assuming you're opped :)"
+    permission-message: "You don't have permission to use that here."
